@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 09:27
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1038,38 +1038,64 @@ LaTeX Font Warning: Font shape `EU1/Fenix(0)/m/it' undefined
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[][][][][][][] [] [][][][][][] [] [][][][] [] [][][][] [] [][][] [] [][][][][] 
-[] [][][][][][][][][][][][] [] [][][][][][][][][] [] [][][] [] [][][] [] [][][]
-[][][][] [] [][] [] [][][][][][][][] [] [][] []
+[][][]\EU1/Fenix(0)/m/n/10 Osborn, Ronald. ''Beauty Will Save the World: Metaph
+ysical Rebellion and the Prob-
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 14--14
+\EU1/Fenix(0)/m/n/10 lem of Theodicy in Dostoevsky's Brothers Karamazov.'' Mode
+rn Age 54, no. 1-4 (2012). []$[][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][] []
+ [][][][] [] [][][][] [] [][][] [] [][][][][] [] [][][][][][][][][][][][] [] []
+[][][][][][][][] [] [][][] [] [][][] []
  []
 
 [2]
-Overfull \hbox (5.84814pt too wide) in paragraph at lines 19--20
-[]\EU1/Fenix(0)/m/it/12 Aquinas’ commentary on Job begins with his acknowledg
-ement of Gregory the Great’s
+Overfull \hbox (5.27216pt too wide) in paragraph at lines 19--20
+[]\EU1/Fenix(0)/m/it/12 Aquinas' commentary on Job begins with his acknowledgem
+ent of Gregory the Great's
  []
 
-[3] [4] [5] [6] [7] [8] [9] [10] [11]) [12] [13]
-No file utaexample.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
- (./utaexample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 167.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
+[3] [4] [5] [6] [7] [8] [9] [10] [11] [12]) (./chap2.tex [13] [14]
+CHAPTER 2.
+[15
 
+] [16] [17] [18] [19] [20] [21]
+CHAPTER 3.
+[22
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+] [23] [24] [25] [26] [27] [28] [29]
+CHAPTER 4.
+[30
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
- ) 
+] [31] [32] [33] [34] [35]
+Missing character: There is no ̈ in font Fenix/ICU:script=latn;language=DFLT;!
+
+./chap2.tex:108: Misplaced alignment tab character &.
+<argument> Literature &
+                        Religion: Pascal, Gryphius, Lessing, Hölderlin, No...
+l.108 ...York: Paragon House, 1991. 227-242, 242.}
+                                                  
+? 
+./chap2.tex:108: Emergency stop.
+<argument> Literature &
+                        Religion: Pascal, Gryphius, Lessing, Hölderlin, No...
+l.108 ...York: Paragon House, 1991. 227-242, 242.}
+                                                  
+End of file on the terminal!
+
+ 
 Here is how much of TeX's memory you used:
- 19242 strings out of 494003
- 373967 string characters out of 3152808
- 421453 words of memory out of 3000000
- 22321 multiletter control sequences out of 15000+200000
+ 19244 strings out of 494003
+ 373985 string characters out of 3152808
+ 414646 words of memory out of 3000000
+ 22323 multiletter control sequences out of 15000+200000
  7608 words of font info for 41 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 39i,8n,45p,2262b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-Output written on utaexample.pdf (16 pages).
+ 39i,8n,45p,2612b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on utaexample.pdf (37 pages).
