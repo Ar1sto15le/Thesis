@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%  PLS Senior Thesis  %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-There are a few main files to this:
-the chapters (chap1.tex and chap2.tex), the acknowledgements and the style guides (.sty) files. Just make sure to keep everything in the same folder.
+%~ There are a few main files to this:
+%~ the chapters (chap1.tex and chap2.tex), the acknowledgements and the style guides (.sty) files. Just make sure to keep everything in the same folder.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%         all the preamble material            %%%%%%%%%%%%%%%%%%%%
@@ -10,7 +10,7 @@ the chapters (chap1.tex and chap2.tex), the acknowledgements and the style guide
 
 \documentclass[12pt]{report}
       \usepackage{utathesis}
-      \usepackage[utf8]{inputenc}
+      %\usepackage[utf8]{inputenc}
       \usepackage[hidelinks]{hyperref}
       \usepackage{fontspec}
       \setmainfont{Fenix}
@@ -25,6 +25,40 @@ the chapters (chap1.tex and chap2.tex), the acknowledgements and the style guide
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       \usepackage{graphicx}
       \usepackage{amsmath}
+      % Define the Hanging Indent
+      % These lines define the hanging indent! NEAT!
+\makeatletter
+% \renewcommand\@biblabel[1]{#1} % No brackets for the references
+\def\@biblabel#1{}
+\renewenvironment{thebibliography}[1]
+     {\section*{\refname}%
+      \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin20pt% change 20 pt according to your needs
+            \advance\leftmargin\labelsep
+            \setlength\itemindent{-20pt}% change using the inverse of the length used before
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\renewcommand\newblock{\hskip .11em\@plus.33em\@minus.07em}
+\makeatother
+
+\usepackage[compact]{titlesec}  
+\titlespacing{\section}{0pt}{0pt}{0pt}
+% End Definition of Hanging Indent
+      
+      
     \begin{document}
     \input{psfig.sty}
     \urlstyle{same}
@@ -52,6 +86,19 @@ the chapters (chap1.tex and chap2.tex), the acknowledgements and the style guide
 
 \input chap1.tex      % file containing Chapter 2 contents
 \input chap2.tex      % file containing Chapter 2 contents
+
+% Bibliography
+\pagebreak
+\begingroup
+\renewcommand{\section}[2]{}	% in article, this becomes reference, so we suppress the normal \section\refname
+\centerline{\textbf{Bibliography}} 
+\begin{thebibliography}{9}
+\bibitem{tolstoy}
+  Tolstoy, Leo. \emph{War and Peace: The Maude Translation, Backgrounds and Sources, Criticism.}
+  Trans. Louise Maude and Aylmer Maude. Ed. George Gibian. New York: Norton, 1996. Print.
+\end{thebibliography}
+
+\endgroup
 
 
 \end{document}
