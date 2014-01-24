@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 12:51
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,27 +1075,33 @@ CHAPTER 4.
 
 ] [31] [32] [33] [34] [35]
 Missing character: There is no ̈ in font Fenix/ICU:script=latn;language=DFLT;!
+Missing character: There is no ̈ in font Fenix/ICU:script=latn;language=DFLT;!
+ [36] [37] [38] [39] [40] [41] [42] [43] [44]
+[45]
+CHAPTER 5.
+[46
 
-./chap2.tex:108: Misplaced alignment tab character &.
-<argument> Literature &
-                        Religion: Pascal, Gryphius, Lessing, Hölderlin, No...
-l.108 ...York: Paragon House, 1991. 227-242, 242.}
-                                                  
-? 
-./chap2.tex:108: Emergency stop.
-<argument> Literature &
-                        Religion: Pascal, Gryphius, Lessing, Hölderlin, No...
-l.108 ...York: Paragon House, 1991. 227-242, 242.}
-                                                  
-End of file on the terminal!
+]) [47]
+No file utaexample.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+[48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
+ (./utaexample.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
 
- 
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
+ ) 
 Here is how much of TeX's memory you used:
- 19244 strings out of 494003
- 373985 string characters out of 3152808
+ 19248 strings out of 494003
+ 374025 string characters out of 3152808
  414646 words of memory out of 3000000
- 22323 multiletter control sequences out of 15000+200000
+ 22324 multiletter control sequences out of 15000+200000
  7608 words of font info for 41 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  39i,8n,45p,2612b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on utaexample.pdf (37 pages).
+
+Output written on utaexample.pdf (50 pages).
