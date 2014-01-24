@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 15:54
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  24 JAN 2014 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -845,7 +845,7 @@ CHAPTER 2.
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [16]
-Overfull \hbox (2.84483pt too wide) in paragraph at lines 80--81
+Overfull \hbox (2.84483pt too wide) in paragraph at lines 83--84
 []\EU1/lmr/m/n/12 Given the overpowering nature of God’s response, some inter
 preters have claimed
  []
