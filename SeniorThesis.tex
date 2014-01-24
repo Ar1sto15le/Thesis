@@ -13,6 +13,7 @@
       % \usepackage[utf8]{inputenc}
       \usepackage[hidelinks]{hyperref}
       \usepackage{fontspec}
+      %\usepackage{fancyhdr}
       %\setmainfont[Ligatures=TeX]{Gentium Book Basic}
       %\setmainfont[Ligatures=TeX,ItalicFont=Fenix,ItalicFeatures={Style=Italic}]{Fenix}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,6 +58,8 @@
 
 \usepackage[compact]{titlesec}  
 \titlespacing{\section}{0pt}{0pt}{0pt}
+\usepackage{setspace}
+\doublespacing
 % End Definition of Hanging Indent
       
       
@@ -85,9 +88,9 @@
 
 \end{acknowledgements}
 
-\input chap1.tex      % file containing Chapter 2 contents
-\input chap2.tex      % file containing Chapter 2 contents
-
+%~ \input chap1.tex      % file containing Chapter 2 contents
+%~ \input chap2.tex      % file containing Chapter 2 contents
+\input ThesisTextBody.tex
 % Bibliography
 \pagebreak
 \begingroup
