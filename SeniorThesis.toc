@@ -1,5 +1,5 @@
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{ii}{chapter*.1}
 \contentsline {chapter}{\numberline {1.}INTRODUCTION}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Statement of Thesis and Layout of Work}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Zosima's Brother: The Beginning of ``Active Love''}{3}{section.1.2}
-\contentsline {chapter}{\numberline {2.}GRATITUDE}{6}{chapter.2}
+\contentsline {section}{\numberline {1.2}Zosima's Brother: The Beginning of ``Active Love''}{4}{section.1.2}
+\contentsline {chapter}{\numberline {2.}GRATITUDE}{7}{chapter.2}
