@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**ThesisTextBody_Revisions_FreshStart.tex
-(./ThesisTextBody_Revisions_FreshStart.tex
+**ThesisTextBody.tex
+(./ThesisTextBody.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
 hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
@@ -17,11 +17,11 @@ speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
 lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
 celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, th
 ai, loaded.
-./ThesisTextBody_Revisions_FreshStart.tex:1: Undefined control sequence.
+./ThesisTextBody.tex:1: Undefined control sequence.
 l.1 \tableofcontents
                     
 ? 
-./ThesisTextBody_Revisions_FreshStart.tex:1: Emergency stop.
+./ThesisTextBody.tex:1: Emergency stop.
 l.1 \tableofcontents
                     
 End of file on the terminal!
@@ -29,11 +29,11 @@ End of file on the terminal!
  
 Here is how much of TeX's memory you used:
  5 strings out of 493485
- 245 string characters out of 3143525
+ 161 string characters out of 3143525
  47818 words of memory out of 3000000
  3412 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 5i,0n,1p,58b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
-./ThesisTextBody_Revisions_FreshStart.tex:1:  ==> Fatal error occurred, no outp
-ut PDF file produced!
+ 5i,0n,1p,37b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+./ThesisTextBody.tex:1:  ==> Fatal error occurred, no output PDF file produced!
+
