@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  29 JAN 2014 00:25
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  30 JAN 2014 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,7 +823,7 @@ CHAPTER 1.
 LaTeX Font Info:    Font shape `EU1/Alegreya(0)/m/sl' in size <12> not availabl
 e
 (Font)              Font shape `EU1/Alegreya(0)/m/it' tried instead on input li
-ne 20.
+ne 19.
 
 Overfull \vbox (0.674pt too high) has occurred while \output is active []
 
@@ -846,10 +846,27 @@ CHAPTER 2.
 ]
 Overfull \vbox (0.674pt too high) has occurred while \output is active []
 
- [8])
+ [8]
 Overfull \vbox (0.674pt too high) has occurred while \output is active []
 
  [9]
+Overfull \vbox (0.674pt too high) has occurred while \output is active []
+
+ [10]
+Overfull \vbox (0.674pt too high) has occurred while \output is active []
+
+ [11]
+Overfull \vbox (0.674pt too high) has occurred while \output is active []
+
+ [12])
+Overfull \hbox (2.96266pt too wide) in paragraph at lines 84--98
+ [] 
+ []
+
+
+Overfull \vbox (0.674pt too high) has occurred while \output is active []
+
+ [13]
 Missing character: There is no ̈ in font Alegreya/ICU:mapping=tex-text;!
 Missing character: There is no ̈ in font Alegreya Italic/ICU:mapping=tex-text;
 !
@@ -870,12 +887,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
 Overfull \vbox (0.674pt too high) has occurred while \output is active []
 
- [10]
+ [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 
 Overfull \vbox (0.674pt too high) has occurred while \output is active []
 
- [11]
+ [15]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 
 (./SeniorThesis.aux)
@@ -884,12 +901,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 19370 strings out of 494003
- 376948 string characters out of 3152808
- 402788 words of memory out of 3000000
- 22443 multiletter control sequences out of 15000+200000
+ 19371 strings out of 494003
+ 376959 string characters out of 3152808
+ 402985 words of memory out of 3000000
+ 22444 multiletter control sequences out of 15000+200000
  7664 words of font info for 48 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 39i,8n,48p,1590b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,48p,1927b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorThesis.pdf (14 pages).
+Output written on SeniorThesis.pdf (18 pages).

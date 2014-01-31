@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {1.2}Zosima's Brother: The Beginning of ``Active Love''}{4}{section.1.2}
 \contentsline {chapter}{\numberline {2.}GRATITUDE: AFFIRMING THE GOODNESS OF CREATION}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Book of Job: A Trial That Enabled Job to See God}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Genesis}{11}{section.2.2}
