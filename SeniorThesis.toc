@@ -7,9 +7,11 @@
 \contentsline {section}{\numberline {2.2}Ivan Karamazov's Rebellion}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Alyosha's Lapse of Faith}{11}{section.2.3}
 \contentsline {section}{\numberline {2.4}Ivan's Grand Inquisitor: Crucified Christ and Ivan's Immature Faith}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3.}THE BEGINNING OF ``ACTIVE LOVE''}{18}{chapter.3}
-\contentsline {section}{\numberline {3.1}Zosima's Brother: The Inspiration}{18}{section.3.1}
-\contentsline {chapter}{\numberline {4.}GRATITUDE: RESTORING A PROPER RELATIONSHIP WITH GOD}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Book of Job: A Trial That Enabled Job to See God}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}Genesis: The Lesson of Man's Place in Creation and His Relationship With God}{26}{section.4.2}
-\contentsline {section}{\numberline {4.3}The Fall: Doubt Fractures Man's Relationship With God and Fellow Men}{28}{section.4.3}
+\contentsline {chapter}{\numberline {3.}THE BEGINNING OF ``ACTIVE LOVE''}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Zosima's Brother: The Inspiration}{19}{section.3.1}
+\contentsline {chapter}{\numberline {4.}GRATITUDE: RESTORING A PROPER RELATIONSHIP WITH GOD}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Book of Job: A Trial That Enabled Job to See God}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Genesis: The Lesson of Man's Place in Creation and His Relationship With God}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}The Fall: Doubt Fractures Man's Relationship With God and Fellow Men}{29}{section.4.3}
+\contentsline {chapter}{\numberline {5.}PROPER PERSPECTIVE: LOVING ONE'S NEIGHBOR AS CHRIST LOVED}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Seeing Christ in all People: An Active Resolution to Suffering}{34}{section.5.1}
