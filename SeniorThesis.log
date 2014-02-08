@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  3 FEB 2014 23:29
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/Debian) (format=xelatex 2013.12.27)  8 FEB 2014 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,14 +733,14 @@ LaTeX Font Info:    ... okay on input line 67.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(126.47249pt, 415.55252pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 596.22751pt, 126.47249pt)
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 614.295pt, 108.405pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=415.55252pt
-* \textheight=596.22751pt
-* \oddsidemargin=54.2025pt
-* \evensidemargin=54.2025pt
+* \textwidth=433.62001pt
+* \textheight=614.295pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
 * \topmargin=-19.75pt
 * \headheight=7.75pt
 * \headsep=12.0pt
@@ -863,13 +863,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 ) [2
 
-] (./ThesisTextBody_Revisions_FreshStart.tex (./SeniorThesis.toc)
+] (./ThesisTextBody_Revisions_FreshStart.tex (./SeniorThesis.toc [3
+
+])
 \tf@toc=\write5
 \openout5 = `SeniorThesis.toc'.
 
- [3
 
-]
+[4]
 CHAPTER 1.
 [1
 
@@ -926,32 +927,38 @@ Overfull \vbox (0.698pt too high) has occurred while \output is active []
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [18]
-CHAPTER 3.
-[19
-
-]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
- [20]
+ [19]
+CHAPTER 3.
+[20
+
+]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [21]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [22]
-CHAPTER 4.
-[23
-
-]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
- [24]
+ [23]
+CHAPTER 4.
+[24
+
+]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [25]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [26]
+Overfull \hbox (2.84482pt too wide) in paragraph at lines 121--122
+[]\EU1/lmr/m/n/12 Given the overpowering nature of God’s response, some inter
+preters have claimed
+ []
+
+
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [27]
@@ -973,44 +980,82 @@ Overfull \vbox (0.698pt too high) has occurred while \output is active []
 CHAPTER 5.
 [33
 
-])
+]
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [34]
-Underfull \hbox (badness 1286) in paragraph at lines 111--112
-\EU1/lmr/m/n/12 no. 1-4 (2012). []$[][][][] [] [] [] [][][] [] [][][][][][][][]
- [] [][][] [] [][][][][][][] [] [][][][][][] [] [][][][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-[][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][] [] [][][
-] [] [][][] [] [][][][][][][] [] [][] [] [][][][][][][][] []
- []
-
-
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [35]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-
 Overfull \vbox (0.698pt too high) has occurred while \output is active []
 
  [36]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [37]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [38]
+Overfull \hbox (10.65361pt too wide) in paragraph at lines 175--176
+[]\EU1/lmr/m/n/12 These great moments of grace, while apparently far-fetched, a
+re scattered through-
+ []
+
+
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [39]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [40]
+CHAPTER 6.
+[41
+
+]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [42]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [43]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [44]
+CHAPTER 7.
+) [45
+
+]
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+[][][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][] [] [][][
+] [] [][][] [] [][][][][][][] [] [][] [] [][][][][][][][] [] [][] []
+ []
+
+
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [47]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+
+Overfull \vbox (0.698pt too high) has occurred while \output is active []
+
+ [48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 
 (./SeniorThesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 129.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 19819 strings out of 494003
- 384673 string characters out of 3152808
- 417762 words of memory out of 3000000
- 22879 multiletter control sequences out of 15000+200000
+ 19820 strings out of 494003
+ 384684 string characters out of 3152808
+ 425511 words of memory out of 3000000
+ 22880 multiletter control sequences out of 15000+200000
  7656 words of font info for 47 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 39i,8n,48p,1727b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,48p,3567b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeniorThesis.pdf (39 pages).
+Output written on SeniorThesis.pdf (52 pages).

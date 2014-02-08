@@ -7,11 +7,17 @@
 \contentsline {section}{\numberline {2.2}Ivan Karamazov's Rebellion}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Alyosha's Lapse of Faith}{11}{section.2.3}
 \contentsline {section}{\numberline {2.4}Ivan's Grand Inquisitor: Crucified Christ and Ivan's Immature Faith}{13}{section.2.4}
-\contentsline {chapter}{\numberline {3.}THE BEGINNING OF ``ACTIVE LOVE''}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Zosima's Brother: The Inspiration}{19}{section.3.1}
-\contentsline {chapter}{\numberline {4.}GRATITUDE: RESTORING A PROPER RELATIONSHIP WITH GOD}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}The Book of Job: A Trial That Enabled Job to See God}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Genesis: The Lesson of Man's Place in Creation and His Relationship With God}{27}{section.4.2}
+\contentsline {chapter}{\numberline {3.}THE BEGINNING OF ``ACTIVE LOVE''}{20}{chapter.3}
+\contentsline {section}{\numberline {3.1}Zosima's Brother: The Inspiration}{20}{section.3.1}
+\contentsline {chapter}{\numberline {4.}GRATITUDE: RESTORING A PROPER RELATIONSHIP WITH GOD}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Book of Job: A Trial That Enabled Job to See God}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}Genesis: The Lesson of Man's Place in Creation and His Relationship With God}{28}{section.4.2}
 \contentsline {section}{\numberline {4.3}The Fall: Doubt Fractures Man's Relationship With God and Fellow Men}{29}{section.4.3}
 \contentsline {chapter}{\numberline {5.}PROPER PERSPECTIVE: LOVING ONE'S NEIGHBOR AS CHRIST LOVED}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Seeing Christ in all People: An Active Resolution to Suffering}{34}{section.5.1}
+\contentsline {section}{\numberline {5.1}Madame Khokhlavov's `Little Faith' and the Search for Immediate Gratitude}{34}{section.5.1}
+\contentsline {section}{\numberline {5.2}Zosima's Answer: Seeing Christ in all People}{35}{section.5.2}
+\contentsline {section}{\numberline {5.3}Heaven: The Hope That Sustains Perseverance}{38}{section.5.3}
+\contentsline {chapter}{\numberline {6.}ACCEPTING REALITY: MAN'S FALLEN NATURE AND REDEMPTION}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Guilty Before All: Markel's Message Lives Through Zosima}{42}{section.6.1}
+\contentsline {section}{\numberline {6.2}Accepting Forgiveness: The Final Key in the Transformation}{43}{section.6.2}
+\contentsline {chapter}{\numberline {7.}Conclusions}{45}{chapter.7}
