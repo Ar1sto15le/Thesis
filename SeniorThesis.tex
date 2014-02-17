@@ -10,13 +10,26 @@
 
 \documentclass[12pt]{report}
       \usepackage{utathesis}
-      \usepackage[top=1in, bottom=1.50in, left=1.50in, right=1in]{geometry}
-      % \usepackage[utf8]{inputenc}
+      \usepackage[top=1.5in, bottom=1.50in, left=1.50in, right=1.5in]{geometry}
+      \usepackage{inputenc}
       \usepackage[hidelinks]{hyperref}
-      \usepackage{fontspec}
+      %\usepackage{fontspec}
       %\usepackage{fancyhdr}
-      \fontspec[Ligatures=TeX,BoldFont = BaskervBookExpBQ-MediumOsF, ItalicFont = BaskervBookExpBQ-ItalicOsF, BoldItalicFont = BaskervBookExpBQ-MediumItalicOsF]{BaskervBookExpBQ-RegularOsF}
-      % \setmainfont[Ligatures=TeX]{BaskervBookExpBQ-RegularOsF}
+      % \fontspec[Ligatures={TeX},BoldFont = {BaskervilleBookBQ-Medium}, ItalicFont = {BaskervilleBookBQ-Italic}]{BaskervilleBookBQ-Regular}
+      % \setmainfont[Ligatures=TeX]{Goudy Bookletter 1911}
+      % \defaultfontfeatures{Mapping=tex-text}
+		%\setmainfont[Ligatures=TeX,
+		%UprightFont = BaskervBookExpBQ-RegularOsF,
+		%BoldFont = BaskervBookExpBQ-MediumOsF,
+		%ItalicFont=BaskervBookExpBQ-ItalicOsF,
+		%BoldItalicFont=BaskervBookExpBQ-MediumItalicOsF
+		%]{BaskervBookExpBQ-Regular}
+		
+
+
+%\setmainfont{Baskerville No.2}
+
+      
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%   load any packages which are needed   %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,6 +100,7 @@
      \input acknowledge.tex
 
 \end{acknowledgements}
+
 %~ \input chap1.tex      % file containing Chapter 2 contents
 %~ \input chap2.tex      % file containing Chapter 2 contents
 \input ThesisTextBody_Revisions_FreshStart.tex
@@ -96,26 +110,20 @@
 \renewcommand{\section}[2]{}	% in article, this becomes reference, so we suppress the normal \section\refname
 \centerline{\textbf{Bibliography}} 
 \begin{thebibliography}{9} 
-\bibitem{aquinas}
-	Aquinas, Thomas. Translated by Brian Mulladay. Edited by Joseph Kenny, O.P.. ``Commentary on the Book of Job.'' \emph{Thomas Aquinas: Commentary on Job: English}. \url{http://dhspriory.org/thomas/SSJob.htm} (accessed December 8, 2013).
 \bibitem{dostoyevsky}
-	Dostoyevsky, Fyodor. Translated by Richard Pevear, and Larissa Volokhonsky. \emph{The Brothers Karamazov: A Novel in Four Parts with Epilogue.} New York: Farrar, Straus and Giroux, 2002.
-\bibitem{gregory}
-	Gregory the Great. Translated by John H. Parker. ``Moralia in Job (Morals on the Book of Job).'' \emph{Moralia in Job (Morals on the Book of Job)}. \url{http://www.lectionarycentral.com/GregoryMoraliaIndex.html} (accessed December 8, 2013).
+	Dostoevsky, Fyodor. Translated by Richard Pevear, and Larissa Volokhonsky. \emph{The Brothers Karamazov: A Novel in Four Parts with Epilogue.} New York: Farrar, Straus and Giroux, 2002.
 \bibitem{jens}
 	Jens, Walter, and Hans Küng. ``Religion in the Controversy Over the End of Religion.'' In \emph{Literature and Religion: Pascal, Gryphius, Lessing, Hölderlin, Novalis, Kierkegaard, Dostoyevsky, Kafka}. New York: Paragon House, 1991. 227-242.
 \bibitem{may}
 	Edited by May, Herbert G., and Bruce Manning Metzger. ``The Book of Job.'' In The \emph{New Oxford Annotated Bible with the Apocrypha: Revised standard version, containing the second edition of the New Testament and an expanded edition of the Apocrypha.} New York: Oxford University Press, 1977. 613-655.
-\bibitem{osborn}
-	Osborn, Ronald. "Beauty Will Save the World: Metaphysical Rebellion and the Problem of Theodicy in Dostoevsky's Brothers Karamazov." Modern Age 54, no. 1-4 (2012). \url{http://www.academia.edu/2512653/Beauty_Will_Save_the_World_Metaphysical_Rebellion_and_the_Problem_of_Theodicy_in_Dostoevskys_Brothers_Karamazov} (accessed December 7, 2013).
+\bibitem{morson}
+	Morson, Gary. ``The God of Onions''. In \emph{The Brothers Karamazov}, trans. Constance Garnett. New York: Random House, 1950.
 \bibitem{ramsey}
 	Ramsey, O.P., Boniface, and Pope Benedict XVI. \emph{In the Beginning: A Catholic Understanding of the Story of Creation and the Fall.} Grand Rapids, Mich.: W.B. Eerdmans Pub. Co., 1995.
+\bibitem{rosen}
+	Rosen, Nathan. ``Style and Structure in \emph{The Brothers Karamazov}''. In \emph{The Brothers Karamazov}, trans. Constance Garnett. New York: Random House, 1950.
 \bibitem{schifferdecker}
 	Schifferdecker, Kathryn. \emph{Out of the Whirlwind: Creation Theology in the Book of Job}. Cambridge, Mass.: Harvard Theological Studies, Harvard Divinity School, 2008.
-\bibitem{stump1}
-	Stump, Eleonore. \emph{Wandering in Darkness:  Narrative and the Problem of Suffering}. Oxford: Clarendon Press ;, 2010.
-\bibitem{stump2}
-	Stump, Eleonore. Edited by Eleonore Stump and Norman Kretzmann. "Aquinas on the Sufferings of Job." In \emph{Reasoned Faith: Essays in Philosophical Theology in Honor of Norman Kretzmann}. Ithaca: Cornell University Press, 1993. 328-357.
 \bibitem{williams}
 	Williams, Rowan. \emph{Dostoevsky: Language, Faith, and Fiction}. London: Continuum, 2009.
 \bibitem{benedict}
