@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {5.1}Madame Khokhlavov's ``Little Faith'' and the Search for Immediate Gratitude}{37}{section.5.1}
 \contentsline {section}{\numberline {5.2}Zosima's Answer: Seeing Christ in all People}{39}{section.5.2}
 \contentsline {section}{\numberline {5.3}Forgiveness: The Divine Justice That Enables Redemption}{41}{section.5.3}
-\contentsline {chapter}{\numberline {6.}ACCEPTING REALITY: MAN'S FALLEN NATURE AND REDEMPTION}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}Guilty Before All: Markel's Message Lives Through Zosima}{46}{section.6.1}
-\contentsline {section}{\numberline {6.2}Accepting Forgiveness: The Final Key in the Transformation}{47}{section.6.2}
-\contentsline {section}{\numberline {6.3}Conclusion: Coming to Know a Quiet and Tender Joy}{49}{section.6.3}
+\contentsline {chapter}{\numberline {6.}ACCEPTING REALITY: MAN'S FALLEN NATURE AND REDEMPTION}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Guilty Before All: Markel's Message Lives Through Zosima}{45}{section.6.1}
+\contentsline {section}{\numberline {6.2}Accepting Forgiveness: The Final Key in the Transformation}{46}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusion: Coming to Know a Quiet and Tender Joy}{48}{section.6.3}
