@@ -1,0 +1,257 @@
+\documentclass[12pt]{article}
+\usepackage{inputenc}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{setspace}
+\usepackage{parskip}
+\setcounter{secnumdepth}{1}
+\pagestyle{plain}
+\usepackage{graphicx}
+%\usepackage{fontspec}
+%\setmainfont{Georgia}
+\setlength{\parindent}{0 cm}
+\usepackage[section]{placeins}
+
+
+\usepackage[compact]{titlesec}  
+\usepackage{amssymb}
+\usepackage{amsmath}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\usepackage{changepage}
+\newenvironment{myenv}{\begin{adjustwidth}{1cm}{}}{\end{adjustwidth}}
+
+\begin{document}
+% Manual Heading
+{\raggedleft{}Gabriel Griggs} \\
+Professor Mark Alber \\
+Nonlinear Dynamical Systems: ACMS 403630 --- 01 \\
+Thursday, January 30th 2014\\
+Homework 1
+\section*{Question 1}
+\begin{myenv}
+\textbf{Question:} Consider a differential equation $ \dot{x} = f(x) = ax - x^3$ for some $a \in \mathbb{R}$. Determine fixed points and their stability for cases where $a$ is positive, negative, and zero.
+
+\textbf{Answer:} In order to determine the fixed points, we must set $ f(\bar{x}) = 0 $ and solve for $ \bar{x} $. This yields:
+\begin{align*}
+f(\bar{x}) = 0 = a\bar{x}-\bar{x}^3 = x(a-\bar{x}^2)
+\end{align*}
+\begin{align*}
+\bar{x} = 0, \pm\sqrt{a}
+\end{align*}
+
+Thus, our fixed points are going to be located at $\bar{x} = 0$ and $\pm\sqrt{a}$. In order to determine the stability at each of these points for the three cases of a, we will graph them using $a = 4, a = 0$ and $a = -4$ as representative cases.
+
+Our first case $ a = 4 $, represents the case where $ a > 0 $. Seen in the graphs below, this scenario yields stable fixed points at $ \pm\sqrt(a) $ and an unstable node at $a = 0$. For $a = 0$, we have one stable node at the origin. Finally, for the $ a < 0 $ case, we use $ a = -4 $ as a proxy. This graph reveals a similar one to the $ a = 0 $ case in that there is a stable node at the origin.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{a41}
+    \caption{$ a > 0$ represented by $ a = 4 $}
+    \label{figure:a1}
+\end{figure}
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{a0}
+    \caption{ $ a = 0$}
+    \label{figure:a0}
+\end{figure}
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{anegative4}
+    \caption{ $ a = 0$}
+    \label{figure:a0}
+\end{figure}
+
+\end{myenv}
+
+\section*{Question 2}
+\begin{myenv}
+\textbf{Question:} Find fixed points and sketch nullclines, vector field and plausible phase portrait of the system:
+\begin{alignat*}{3}
+\dot{x} &= x(x-y) &= f(x,y) \\
+\dot{y} &= y(2x-y) &= g(x,y)
+\end{alignat*}
+
+
+\textbf{Answer:} In order to find the fixed points, we need to find $(\bar{x},\bar{y})$ such that $f(\bar{x},\bar{y}) = 0$ and $g(\bar{x},\bar{y}) = 0$. Thus, the only fixed point occurs at $(0,0)$.
+
+The Jacobian matrix at a general point in this system is given as:
+\begin{align*}
+	J &= 
+	\begin{Bmatrix}
+	2x-y & -x \\
+	2y & -2y + 2x
+	\end{Bmatrix}
+\end{align*}
+
+Evaluating the Jacobian at the fixed point $(0,0)$ yields:
+\begin{align*}
+	J &= 
+	\begin{Bmatrix}
+	0 & 0 \\
+	0 & 0
+	\end{Bmatrix}, 	&\Lambda^2 &= 0,	&\Lambda &= 0, &det &= 0, &trace &= 0
+\end{align*}
+
+
+This analysis tells us that linearization of our system predicts a center at $(0,0)$ and this is our fixed point, as can be seen by the intersection of the nullclines in the graphs below.
+
+
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Question2_VectorField}
+    \caption{ Vector Field and Nullclines}
+    \label{figure:a0}
+\end{figure}
+
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Question2_PhasePortrait}
+    \caption{ Phase Portrait}
+    \label{figure:a0}
+\end{figure}
+\end{myenv}
+
+\section*{Question 3}
+\textbf{Question:} Show that the following system is reversible:
+\begin{alignat*}{3}
+\dot{x} &= y(1-x^2) &= f(x,y)\\
+\dot{y} &= 1-y^2 &= g(x,y)
+\end{alignat*}
+\textbf{Answer:} We can show that this system is reversible by showing that $f(x,-y) = -f(x,y)$ and $g(x,-y) = g(x,y)$, as seen below.
+
+\begin{alignat*}{3}
+f(x,-y) &= -y(1-x^2) = -f(x,y) \\
+g(x,-y) &= 1 - (-y)^2 = 1-y^2 = g(x,y)
+\end{alignat*}
+
+\section*{Question 4}
+\begin{myenv}
+\textbf{Question:} Is the origin a nonlinear center of the system?
+\begin{alignat*}{3}
+\dot{x} &= -y-x^2 &= f(x,y)\\
+\dot{y} &= x &= g(x,y)
+\end{alignat*}
+\textbf{Answer:} Maybe, the origin might be a nonlinear center to this system. Reversibility would show that this is a nonlinear center, but this system does not seem to be reversible in the y direction (despite the answer in the back of the book). The phase portrait in the graph below confirm the suspicion that this is not a nonlinear center, as there is no robust center at $(0,0)$
+
+The linearization process consists in verifying that $(0,0)$ is a fixed point and then evaluating the Jacobian of this system at the $(0,0)$ and calculating the resulting eigenvalues.
+
+The Jacobian matrix at a general point in this system is given as:
+\begin{align*}
+	J &= 
+	\begin{Bmatrix}
+	-2x & -1 \\
+	1 & 0
+	\end{Bmatrix}
+\end{align*}
+
+Evaluating the Jacobian at the fixed point $(0,0)$ yields:
+\begin{align*}
+	J &= 
+	\begin{Bmatrix}
+	0 & -1 \\
+	1 & 0
+	\end{Bmatrix}, 	&\Lambda^2 &= -1,	&\Lambda &= \pm i, &det &= 1, &trace &= 0
+\end{align*}
+
+Since the $det>0$ and the $trace=0$, by linearization the fixed point $(0,0)$ would be classified as a center. In order to verify this, we overlay the phase portrait on the vector field. With initial conditions starting at $(.1,.1)$ the system returns a closed orbit around the fixed point, which is expected behavior for a fixed point. This closed orbit verifies that the fixed point at $(0,0)$ is indeed a center.
+
+This system can explicitly be shown to have a \emph{nonlinear center} by showing that this system is reversible under the transformations $x \mapsto -x$ and $y \mapsto -y$.
+
+\begin{alignat*}{3}
+f(-x,y) &= -y-(-x)^2 = -y-(x)^2 = f(x,y) \\
+g(-x,y) &= (-x) = -g(x,y)
+\end{alignat*}
+
+And (the back of the book agrees that this system is reversible. I cannot figure out how $f(x,-y) = -f(x,y)$, however.)
+\begin{alignat*}{3}
+f(x,-y) &= - (-y) - x^2 =? -f(x,y) = -(-y-x^2) = y+x^2 \\
+g(x,-y) &= x = g(x,y)
+\end{alignat*}
+
+If this system is indeed reversible, then we can use Thm 6.61 (Strogatz) to prove that this is a robust \emph{nonlinear center}.
+
+However, I am still not convinced that this system is reversible in the y direction. I cannot figure it out explicitly and the phase portrait below also fails to show $(0,0)$ as a stable center. 
+
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Question4_Center}
+    \caption{ Phase Portrait}
+    \label{figure:a0}
+\end{figure}
+\end{myenv}
+
+\section*{Question 5}
+\begin{myenv}
+\textbf{Question:} Study the Lotka-Voltera predator-prey model given by the system of equations:
+\begin{alignat*}{3}
+\dot{R} &= aR - bRF \\
+\dot{F} &= -cF + dRF
+\end{alignat*}
+a) Show that the model can be recast in a non-dimensional form:
+\begin{alignat*}{3}
+\dot{x} &= x(1-y) \\
+\dot{y} &= \mu y(x-1)
+\end{alignat*}
+b) Plot the vector field of the system.
+
+c) Discuss the biological relevance of solutions of the system.
+
+\textbf{Answer:} \\
+a) In order to show that this model can be recast in a non-dimensional form, we factor both of the equations to get an intuition as to what our substitution will be:
+\begin{alignat*}{3}
+\dot{R} &= aR - bRF &= aR(1-\frac{b}{a}F) \\
+\dot{F} &= -cF + dRF &= cF(\frac{d}{c}R-1)
+\end{alignat*}
+
+Intuition tells us that our substitution will be $x = \frac{d}{c}R$ and $y = \frac{b}{a}F$. We then find a $\tau(t)$, where $\tau=t/T$ and T is our characteristic time scale to be found. To find T, we use the chain rule in reverse and then solve $\frac{dt}{d\tau}$ for both $\dot{x}$ and $dot{y}$.
+
+The chain rule yields:
+\begin{alignat*}{3}
+\dot{x} &= \frac{dx}{d\tau} &= \frac{dx}{dR} \frac{dR}{dt} \frac{dt}{d\tau} &= x(1-y) \\
+\\
+\dot{y} &= \frac{dy}{d\tau} &= \frac{dy}{dF} \frac{dF}{dt} \frac{dt}{d\tau} &= \mu y(x-1)
+\end{alignat*}
+
+We are able to substitute for everything in these equations except for $\frac{dt}{d\tau}$, using the fact that:
+\begin{alignat*}{3}
+\frac{dx}{dR} &= \frac{d}{c} \\
+\\
+\frac{dy}{dF} &= \frac{b}{a}
+\end{alignat*}
+
+Substitution yields:
+\begin{alignat*}{3}
+\dot{x} &= \frac{d}{c}Ra(1-y)\frac{dt}{d\tau} &= x(1-y)
+\end{alignat*}
+
+From this, we can see that $\frac{dt}{d\tau} = \frac{1}{a}$. We solve this by separation of variables and find that $\tau = at$. Substituting $\frac{dt}{d\tau} = \frac{1}{a}$ back into $\dot{y}$, we will see that $\mu = \frac{c}{a}$.
+
+\begin{align*}
+\dot{y} &= \frac{b}{a}cF(x-1)\frac{dt}{d\tau} = \mu y(x-1) &= \frac{c}{a}y(x-1)
+\end{align*}
+
+Ultimately, with these substitutions, we arrive at the desired result:
+\begin{alignat*}{3}
+\dot{x} &= x(1-y) \\
+\dot{y} &= \mu y(x-1)
+\end{alignat*}
+
+b) A vector field can be seen in the graph below. Note: this vector field used $\mu = \frac{c}{a} = \frac{.3}{.7}$.
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Question5_VectorField}
+    \caption{ Vector Field}
+    \label{figure:a0}
+\end{figure}
+
+c) The vector field below shows the interesting result that the species represented by $\dot{x}$, which is the rabbit species in this model, almost always gets near extinction only to recover. We can also see that the fixed point at $(1,1)$ yields a linear center which is predicted by eigenvalues of $\lambda = \pm \mu i$. This center would appear to be nonlinear, as well, because of the vector field, although this cannot be shown by reversibility because this system is not reversible
+
+\end{myenv}
+\end{document}
+
